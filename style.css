@@ -1,16 +1,23 @@
 body{
     margin: 50px;
 }
-.caixas{
+.caixas{    
     padding: 20px;
     padding-left: 35px;
     padding-right: 35px;
     border: 1px solid black;
     border-radius: 10px;
 }
+.infp{
+    float: left;
+}
 .formacad{
     float: left;
 }
 .exprof{
-    float: right;
+    float: left;
+}
+.cabecalho{
+    font-size: 50px;
+    font-weight: 700;
 }
