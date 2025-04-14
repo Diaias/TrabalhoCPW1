@@ -1,28 +1,27 @@
 body{
     margin: 50px;
 }
+.container{
+    font-size: 20px;
+    float: left;
+}
+img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
 .caixas{    
+    font-size: 17px;
     padding: 20px;
     padding-left: 35px;
     padding-right: 35px;
-    border: 1px solid black;
     border-radius: 10px;
-}
-.infp{
-    float: left;
-}
-.formacad{
-    float: left;
-}
-.exprof{
-    float: left;
 }
 .cabecalho{
     font-size: 50px;
     font-weight: 700;
-}
-.arrumar{
-    
 }
 .nav{
 }

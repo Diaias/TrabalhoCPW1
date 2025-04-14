@@ -3,72 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="scrip.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Trabalho</title>
 </head>
 <body>
     <div class="cabecalho">
         <label><p>Lucas Dias</p></label>
-        <img src="" alt="">
     </div>
 
-    <div>
-        <ul class="nav" id="navbar">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Formação</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Dados Pessoais</a>
-            </li>
-            <li class="nav-item ultimo">
-            <a class="nav-link" href="#contact">Link</a>
-            </li>
+    <div class="container">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#dadosp">Dados Pessoais</a></li>
+          <li><a data-toggle="tab" href="#formc">Formação Acadêmica</a></li>
+          <li><a data-toggle="tab" href="#expp">Experiência Profissional</a></li>
+          <li><a data-toggle="tab" href="#cont">Contato</a></li>
+          <li><a data-toggle="tab" href="#idiomas">Idiomas</a></li>
         </ul>
-    </div>  
-    <div class="arrumar">
-        <div class="caixas infp">
-            <li>
-                Data de nascimento: 14/10/2005 - 19 anos
-            </li>
-            <li>
-                Nacionalidade - Brasileiro
-            </li>
-            <li>
-                Endereço - Av.Presidente Vargas, 724/1103| Passo Fundo, RS
-            </li>
-            <li>
-                Contato - (54) 9 8118-3710
-            </li>
-            <li>
-                E-mail - lucastaufer001@gmail.com
-            </li>
+      
+        <div class="tab-content">
+            <div id="dadosp" class="tab-pane fade in active">
+                <div class="caixas">
+                    <img src="Eu.jpeg" alt="Lucas Dias">
+                    <li>
+                        Data de nascimento: 14/10/2005 - 19 anos
+                    </li>
+                    <li>
+                        Nacionalidade - Marciano
+                    </li>
+                    <li>
+                        Endereço - Av.Presidente Vargas, 724/1103| Passo Fundo, RS
+                    </li>
+                    <li>
+                        <a href="https://github.com/Diaias"><span style="color: rgb(41, 41, 41);">Github Pessoal</span></a>
+                    </li>
+                </div>
+          </div>
+            <div id="formc" class="tab-pane fade">
+            <div class="caixas">
+                    <li>
+                        Ensino Médio Integrado no IFSUL
+                    </li>
+                    <li>
+                        Curso de Design Gráfico na Microlins
+                    </li>
+                    <li>
+                        Cursando Bacharelado em Ciencia da Computação no IFSUL
+                    </li>
+            </div>
+          </div>
+          <div id="expp" class="tab-pane fade">
+            <div class="caixas">
+                    <li>
+                        Dono do Yahoo
+                    </li>
+                    <li>
+                        Dono do Club Penguim
+                    </li>
+                    <li>
+                        Soldado do Exército Brasileiro
+                    </li>
+            </div>
+      </div>
+          <div id="cont" class="tab-pane fade">
+                <div class="caixas">
+                    <li>
+                        Telefone - (54) 9 8118-3710
+                    </li>
+                    <li>
+                        E-mail - lucastaufer001@gmail.com
+                    </li>
+                </div>
+          </div>
+          <div id="idiomas" class="tab-pane fade">
+            <div class="caixas">
+                <ol>
+                    <li>
+                        Português
+                    </li>
+                    <li>
+                        Inglês
+                    </li>
+                </ol>
+            </div>
+      </div>
         </div>
-    </div>
-
-    <div class="caixas formacad">
-        <p>Formação Academica</p>
-        <ol>
-            <li>
-                Ensino Médio Integrado no IFSUL
-            </li>
-            <li>
-                Curso de Design Gráfico na Microlins
-            </li>
-            <li>
-                Cursando Bacharelado em Ciencia da Computação no IFSUL
-            </li>
-        </ol>
-    </div>
-
-    <div class="caixas exprof">
-        <p>Experiencia Profissional</p>
-        <ol>
-            <li>
-                1 ano de serviço obrigatório 
-            </li>
-        </ol>
-    </div>
+      </div>
+    <div>
 </body>
 </html>
